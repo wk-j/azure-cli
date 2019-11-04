@@ -17,4 +17,5 @@ az pipelines list --org https://dev.azure.com/bcircle-development  --project inf
 
 az pipelines build --project inflex-monitor  --id 5
 az pipelines queue list --org https://dev.azure.com/bcircle-development --project inflex-monitor
+az pipelines run --org https://dev.azure.com/bcircle-development --project inflex-monitor --id 5
 ```
